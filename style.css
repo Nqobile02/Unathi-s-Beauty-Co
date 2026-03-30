@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 30px;
+  color: #504444;
 }
 .logo-img {
   width: 100px;
@@ -23,26 +24,32 @@ body {
   background-color: #d4af37;
   color: #ffffff;
   border: none;
+  text-align: center;
 }
 .card {
   box-shadow: 0 5px 8px 0 #7f5353;
   max-width: 400px;
-  margin: auto;
+  margin: 20px auto;
   text-align: center;
 }
 .card-text {
   text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
 }
 h4 {
   font-size: 20px;
 }
 .wig-type {
-  padding: 8px 15px;
-  font-size: 16px;
+  padding: 10px 10px;
+  font-size: 14px;
   background-color: #7f5353;
   color: #ffffff;
   border: none;
-  text-align: right;
+  line-height: 1;
+  align-self: center;
+  /* text-align: right; */
 }
 .showroom-img {
   width: 360px;
@@ -53,11 +60,16 @@ aside {
   padding: 20px;
 }
 h1 {
-  color: #7f5353;
-  font-size: 40px;
+  /* color: #1a1a1a;
+  font-size: 40px; */
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 h2 {
-  color: #d4af37;
+  color: #504444;
   font-size: 25px;
   text-align: center;
 }
@@ -104,10 +116,70 @@ ul li {
 }
 #policy {
   background-color: #f5f3f3;
-  padding: 30px 70px;
+  padding: 60px 10px;
 }
-.policy-list p {
-  background-color: #ffffff;
+.policy-list {
   border: none;
-  padding: 10px 45px;
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+
+  /* padding: 10px 45px; */
+}
+.policy-list li {
+  background-color: #ffffff;
+  border-left: 5px solid #d4af37;
+  margin-bottom: 15px;
+  padding: 2px;
+  display: block;
+  line-height: 1.5;
+}
+#final-cta {
+  background-color: #f9f9f9;
+  color: #d4af37;
+  padding: 80px 20px;
+  text-align: center;
+}
+.final-cta-btn {
+  padding: 20px 48px;
+  font-size: 16px;
+  background-color: #d4af37;
+  color: #ffffff;
+  border: none;
+}
+address {
+  text-align: center;
+}
+.text-us {
+  padding: 8px 24px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #d4af37;
+  border: solid 1px #d4af37;
+}
+.insta-logo {
+  width: 32px;
+  height: auto;
+}
+h4 {
+  color: #d4af37;
+}
+
+.contact-logos {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.whatsapp-logo {
+  width: 48px;
+  height: auto;
+}
+.card-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }

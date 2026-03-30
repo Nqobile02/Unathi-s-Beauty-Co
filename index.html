@@ -27,11 +27,13 @@
       <button class="hero-btn">Reserve Experience</button>
     </header>
     <section id="showroom">
-      <h1>Hair Collection</h1>
+      <h2>Hair Collection</h2>
       <article class="card">
         <img src="Images/straighthairPh.jpg" class="showroom-img" />
-        <h4>Silky Straight Frontals</h4>
-        <button class="wig-type">Premium</button>
+        <div class="card-heading">
+          <h4>Silky Straight Frontals</h4>
+          <button class="wig-type">Premium</button>
+        </div>
         <p>Natural Black, Blonde, Burgandy</p>
         <p>Starting at R500</p>
         <p>view lengths & prices</p>
@@ -39,8 +41,10 @@
       <article class="card">
         <img src="Images/curlyhairPh.jpg" class="showroom-img" />
         <div class="card-text">
-          <h4>Curly Frontals</h4>
-          <button class="wig-type">Signature</button>
+          <div class="card-heading">
+            <h4>Curly Frontals</h4>
+            <button class="wig-type">Signature</button>
+          </div>
           <p>Natural Black, Brown, Burgandy</p>
           <p>Starting at R700</p>
           <p>view lengths & prices</p>
@@ -48,14 +52,17 @@
       </article>
       <article class="card">
         <img src="Images/doubledrawnPh.jpg" class="showroom-img" />
-        <h4>Double Drawn Frontals</h4>
-        <button class="wig-type">Luxury</button>
+        <div class="card-heading">
+          <h4>Double Drawn Frontals</h4>
+          <button class="wig-type">Luxury</button>
+        </div>
         <p>Natural Black, Blonde, Piano</p>
         <p>Starting at R1500</p>
         <p>view lengths & prices</p>
       </article>
 
       <aside>
+        <!-- <article class="card"> -->
         <h2>How To Purchase</h2>
         <ol>
           <li>Choose yout texture and length from Our Collection</li>
@@ -65,12 +72,13 @@
             text!
           </li>
         </ol>
+        <!-- </article> -->
       </aside>
     </section>
     <section id="services">
-      <h1>Services</h1>
+      <h2>Services</h2>
       <img src="Images/lashplaceholder.jpg" class="service-img" />
-      <h2>Lash Artistry</h2>
+      <h3>Lash Artistry</h3>
       <ul>
         <li><span>Classic Wet Set</span> <span class="prices">R100</span></li>
         <li><span>Wispy Hybrid Set</span><span class="prices"> R120</span></li>
@@ -78,7 +86,7 @@
         <li><span>Wispy Volume Set</span><span class="prices"> R180</span></li>
       </ul>
       <img src="Images/hairplaceholder.jpg" class="service-img" />
-      <h2>Hair Artistry</h2>
+      <h3>Hair Artistry</h3>
       <ul>
         <li><span>Hair installations</span><span class="prices">R150</span></li>
         <li><span>Wash</span><span class="prices"> R80</span></li>
@@ -89,7 +97,7 @@
       </ul>
     </section>
     <section id="about">
-      <h1>About</h1>
+      <h2>About</h2>
       <div class="about-content">
         <img src="Images/Nathi.jpg" class="about-img" />
         <p class="about-text">
@@ -104,26 +112,34 @@
       </div>
     </section>
     <section id="policy">
-      <h1>Policy</h1>
-      <div class="policy-list">
-        <p>No deposit, no appointment unless its a walk-in appoinment</p>
-        <p>
+      <h2>Policy</h2>
+      <ul class="policy-list">
+        <li>No deposit, no appointment unless its a walk-in appoinment</li>
+        <li>
           Please arrive 10 minutes before your appoinment. NB: If you're running
           late, please ensure you inform us!
-        </p>
-        <p>24HR cancellation or reschedule notice is required.</p>
-        <p>30% deposit for all bookings secure your slot.</p>
-      </div>
+        </li>
+        <li>24HR cancellation or reschedule notice is required.</li>
+        <li>30% deposit for all bookings secure your slot.</li>
+      </ul>
+    </section>
+    <section id="final-cta">
+      <h2>Ready for your transformation?</h2>
+      <button class="final-cta-btn">Book My Appointment</button>
     </section>
     <footer>
       <address>
-        <h2>Unathi's Beauty_Co</h2>
-        <h4>@Unathi's Beauty_Co</h4>
-        <button class="text-us">Text Us</button>
+        <h2>Reach us at</h2>
+        <div class="contact-logos">
+          <img src="Images/insta-logo.png" class="insta-logo" />
 
-        <h5>Location</h5>
+          <img src="Images/whatsapp-logo.png" class="whatsapp-logo" />
+        </div>
+        <!-- <button class="text-us">Text Us</button> -->
+
+        <h4>Location</h4>
         <p>Zitobeni</p>
-        <h5>Hours</h5>
+        <h4>Hours</h4>
         <p>Mon- Sat:7am - 7pm</p>
         <p>Sun- Closed</p>
       </address>
