@@ -1,7 +1,10 @@
 body {
   font-family: sans-serif;
-  margin: 30px;
+  margin: 20px;
   color: #504444;
+}
+section {
+  margin-bottom: 45px;
 }
 .logo-img {
   width: 100px;
@@ -52,7 +55,7 @@ h4 {
   /* text-align: right; */
 }
 .showroom-img {
-  width: 360px;
+  width: 345px;
   height: 230px;
 }
 aside {
@@ -99,8 +102,8 @@ ul li {
   gap: 35px;
 }
 .about-img {
-  width: 350px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
 }
 .about-content {
   display: flex;
@@ -128,9 +131,10 @@ ul li {
 }
 .policy-list li {
   background-color: #ffffff;
-  border-left: 5px solid #d4af37;
+  border-left: 3px solid #d4af37;
   margin-bottom: 15px;
   padding: 2px;
+  padding-left: 5px;
   display: block;
   line-height: 1.5;
 }
