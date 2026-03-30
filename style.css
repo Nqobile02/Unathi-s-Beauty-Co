@@ -4,8 +4,9 @@ body {
   color: #504444;
 }
 section {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
+/* Navigation and Hero styling */
 .logo-img {
   width: 100px;
   height: auto;
@@ -21,6 +22,15 @@ section {
   margin-bottom: 15px;
   background-color: #ffffff;
 }
+h1 {
+  /* color: #1a1a1a;
+  font-size: 40px; */
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 .hero-btn {
   padding: 15px 35px;
   font-size: 16px;
@@ -29,6 +39,7 @@ section {
   border: none;
   text-align: center;
 }
+/* Hair Collection Styling */
 .card {
   box-shadow: 0 5px 8px 0 #7f5353;
   max-width: 400px;
@@ -62,15 +73,41 @@ aside {
   background-color: #f5f3f3;
   padding: 20px;
 }
-h1 {
-  /* color: #1a1a1a;
-  font-size: 40px; */
-  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
+summary {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d4af37;
+  font-weight: bold;
   text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
+.dropdown-icon {
+  transition: transform 0.3s ease;
+  font-size: 1.2rem;
+}
+details[open] .dropdown-icon {
+  transform: rotate(180deg);
+  color: #7f5353;
+}
+/* summary ::after {
+} */
+.price-dropdown {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  border-top: 1px solid #7f5353;
+}
+.price-dropdown li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+/* Services styling */
 h2 {
   color: #504444;
   font-size: 25px;
