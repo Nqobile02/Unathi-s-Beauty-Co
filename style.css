@@ -1,22 +1,30 @@
 body {
   font-family: sans-serif;
-  margin: 20px;
+  /* margin: 20px; */
   color: #504444;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container {
+  padding: 0 20px;
 }
 section {
   margin-bottom: 30px;
 }
 /* Navigation and Hero styling */
 .logo-img {
-  width: 100px;
+  width: 60px;
   height: auto;
 }
 .nav-bar {
   display: flex;
+  align-items: center;
 }
 .nav-bar h2 {
-  font-size: 20px;
+  font-size: 15px;
   color: #d4af37;
+  padding-right: 15px;
 }
 #hero {
   margin-bottom: 15px;
@@ -66,7 +74,7 @@ h4 {
   /* text-align: right; */
 }
 .showroom-img {
-  width: 345px;
+  width: 320px;
   height: 230px;
 }
 aside {
@@ -118,15 +126,22 @@ ol li {
   color: #504444;
 }
 .service-img {
-  width: 360px;
-  height: 230px;
+  width: 350px;
+  height: 180px;
+  border-radius: 10%;
 }
 h3 {
   color: #7f5353;
+  padding-left: 10px;
 }
 .prices {
   color: #7f5353;
   font-weight: 700;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
 }
 ul li {
   color: #504444;
@@ -134,7 +149,8 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
+
   font-size: 20px;
   gap: 35px;
 }
@@ -156,7 +172,7 @@ ul li {
 }
 #policy {
   background-color: #f5f3f3;
-  padding: 60px 10px;
+  padding: 40px 10px;
 }
 .policy-list {
   border: none;
@@ -178,7 +194,7 @@ ul li {
 #final-cta {
   background-color: #f9f9f9;
   color: #d4af37;
-  padding: 80px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 .final-cta-btn {
@@ -188,8 +204,20 @@ ul li {
   color: #ffffff;
   border: none;
 }
+/* Footer */
+footer {
+  /* Remove any side padding from the main footer */
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 40px;
+  padding-bottom: 0; /* Let the attribution bar handle the bottom space */
+  background-color: #f5f3f3; /* Or whatever your main footer color is */
+  width: 100%;
+}
 address {
   text-align: center;
+  padding: 0 20px; /* This keeps the address text from touching phone edges */
+  margin-bottom: 40px;
 }
 .text-us {
   padding: 8px 24px;
@@ -214,13 +242,43 @@ h4 {
   justify-content: center;
   gap: 20px;
 }
+
 .whatsapp-logo {
   width: 48px;
   height: auto;
+}
+.phone-nr {
+  color: #504444;
+}
+.icons {
+  padding-right: 10px;
+  font-size: 20px;
+  color: #504444;
 }
 .card-heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.developer-attribution {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgba(212, 175, 55, 0.3);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  color: white;
+  background-color: #504444;
+  text-align: center;
+}
+
+.developer-attribution a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
 }
