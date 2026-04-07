@@ -110,9 +110,14 @@ summary {
   color: #d4af37;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   margin-bottom: 10px;
+}
+summary,
+.order-btn {
+  padding: 12px; /* Large enough for a thumb tap */
+  min-height: 25px;
 }
 .dropdown-icon {
   transition: transform 0.3s ease;
@@ -175,6 +180,8 @@ ul li {
   font-size: 20px;
   gap: 35px;
 }
+
+/* about Section */
 .about-img {
   width: 330px;
   height: 330px;
