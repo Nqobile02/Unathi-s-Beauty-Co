@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: sans-serif;
   /* margin: 20px; */
@@ -35,6 +38,11 @@ section {
 .nav-bar {
   display: flex;
   align-items: center;
+  /* position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding-bottom: 15px; */
 }
 .nav-bar h2 {
   font-size: 15px;
@@ -168,6 +176,7 @@ ul {
   padding-left: 0;
   margin: 0;
   width: 100%;
+  padding-bottom: 30px;
 }
 ul li {
   color: #504444;
@@ -289,6 +298,34 @@ h4 {
   padding-right: 10px;
   font-size: 20px;
   color: #504444;
+}
+.phone-link {
+  color: #504444;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.phone-link:hover,
+.phone-link:active {
+  color: #d4af37;
+}
+.location-link {
+  color: #504444;
+  text-decoration: none;
+  display: inline-block;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.location-link:hover {
+  color: #d4af37;
+  transform: translateY(-2px);
+}
+
+.location-link i {
+  margin-right: 5px;
+  /* color: #d4af37; */
 }
 .card-heading {
   display: flex;
