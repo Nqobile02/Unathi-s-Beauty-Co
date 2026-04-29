@@ -3,7 +3,7 @@ A high-end, mobile-first landing page designed for a boutique hair and lash stud
 thumb-scrolled experience for clients booking beauty services on the go.
 
 🌐 https://unathisbeautyco.netlify.app/
-<img width="206" height="460" alt="image" src="https://github.com/user-attachments/assets/d0652c35-f48f-4015-b3dd-de78c7f1d7e5" />
+<img width="206" height="400" alt="image" src="https://github.com/user-attachments/assets/d0652c35-f48f-4015-b3dd-de78c7f1d7e5" />
 
 
 ✨ Project Overview
@@ -46,4 +46,4 @@ Plaintext
 ├── style.css             # Mobile-first luxury styling and animations
 └── README.md             # Project documentation
 👩‍💻 Developed By
-Nqobile Front-End Developer: 
+Nqobile Front-End Developer: https://github.com/Nqobile02
